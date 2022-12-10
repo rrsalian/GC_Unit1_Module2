@@ -8,20 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-      <h1>Rajesh Salian</h1>   
+   <header>
+      <h1>Rajesh Salian</h1>
       <nav>
-         <ul>
+         <ul class="nav-list">
             <li><a href="#my-start">My Start</a></li>
             <li><a href="#details">Details</a></li>
             <li><a href="#social-media">Social Media</a></li>
          </ul>
-      </nav>
+      </nav>      
    </header>
    <main>
-      <img src="Raj.jpg" height="200px"
+      <img id="profile-pic" src="Raj.jpg" height="200px"
          alt="Raj yet to join Grand Circus"/>
-      <p>
+      <p class="overview">
          Hi! My name is Rajesh Salian. I live in New Jersey with my fanily. 
          I am currently full time and working as a Software Engineer.       
       </p>
@@ -37,6 +37,10 @@
          It is a journey that i was thinking about past 6 months and here i am eager to be part of that.
       </p>
       <h2 id="details">Details</h2>
+      <blockquote id="joke">
+         <p>Why did the cow cross the road?</p>
+         <p>To get to the udder side.</p>
+       </blockquote>
       <h3>Pets</h3>
       <table  style="width:15%">
          <tr>
@@ -67,7 +71,7 @@
    </main>
    <footer>   
       <h3 id="social-media">Social Media</h3>
-         <ul>
+         <ul class="nav-list">
             <li>
                <img src="github-mark-white.jpeg" height="64px" alt="GitHub"/>
                <a href="https://github.com/rsalian">GitHub</a>            
@@ -77,6 +81,12 @@
                <a href="https://www.linkedin.com/school/grandcircus/mycompany/">Linked In</a>
             </li>
          </ul>
-   </footer>      
+   </footer>
+   <div class="numbers-box">
+      <div class="color-box color-box-1">1</div>
+      <div class="color-box color-box-2">2</div>
+      <div class="color-box color-box-3">3</div>
+      <div class="color-box color-box-4">4</div>
+   </div>         
    </body>
 </html>
